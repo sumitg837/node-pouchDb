@@ -1,0 +1,21 @@
+{
+    "log":["CRUD+", "REST+", "Changes+", "Attach+"],
+    "databases": {
+        "test": {
+            "server":"walrus:",
+            "sync":`function(doc) {channel(doc.channels);}`,
+            "users": {
+                "GUEST": {
+                    "disabled": false,
+                    "admin_channels": ["*"]
+                }
+            }
+        }
+    },
+    "CORS": {
+        "Origin": ["http://192.168.1.32:3000"],
+        "LoginOrigin": ["http://192.168.1.32:3232"],
+        "Headers": ["Content-Type"],
+        "MaxAge": 17280000
+    }
+}
