@@ -1,0 +1,32 @@
+{
+  "name": "node-passport",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "bookshelf": "^0.13.3",
+    "bookshelf-eloquent": "^0.1.15",
+    "bookshelf-paranoia": "^0.13.0",
+    "bookshelf-scopes": "^1.5.0",
+    "bookshelf-secure-password": "^3.1.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-session": "^1.15.6",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.3.0",
+    "knex": "^0.15.2",
+    "morgan": "~1.9.0",
+    "mysql": "^2.16.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
